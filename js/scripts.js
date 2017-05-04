@@ -1,8 +1,8 @@
 function getTriangleArea(a, h) {
 	
-	if ( (a  0) && (h  0) ) {
+	if ( (a > 0) && (h > 0) ) {
 		
-		var wynik = ah2;
+		var wynik = a*h/2;
 		
 		return wynik;
 
